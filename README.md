@@ -29,8 +29,10 @@ SOLUTION
 │    │       │   
 │    │       │   
 │    │       └── Tasks.js
-│    │             └── Task.js
-│    │            
+│    │              └── Duty.js
+│    │       ├── Footer.js
+│    │            └── DeleteAll.js
+│    │              
 │    ├── App.js
 │    ├── App.css
 │    ├── index.js
