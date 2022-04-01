@@ -89,7 +89,7 @@ footer {
 }
 
 .deleteAllbutton{
-  background: rgb(109, 14, 138);
+  background: rgb(240, 217, 6);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -106,30 +106,15 @@ footer {
 .deleteAllbutton:active {
   transform: scale(0.98);
 }
+.deleteAllbutton:hover{
+  background: rgb(73, 231, 20);
+  transform: scale(1.1);
 
-.sortButton{
-  background: rgb(109, 14, 138);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
-
-}
-.sortButton:focus {
-  outline: none;
-}
-.sortButton:active {
-  transform: scale(0.98);
 }
 .footer{
   display: flex;
   margin-top: 30px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
