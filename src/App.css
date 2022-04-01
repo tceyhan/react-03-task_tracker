@@ -87,3 +87,49 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+
+.deleteAllbutton{
+  background: rgb(109, 14, 138);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.deleteAllbutton:focus {
+  outline: none;
+}
+.deleteAllbutton:active {
+  transform: scale(0.98);
+}
+
+.sortButton{
+  background: rgb(109, 14, 138);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+
+}
+.sortButton:focus {
+  outline: none;
+}
+.sortButton:active {
+  transform: scale(0.98);
+}
+.footer{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+

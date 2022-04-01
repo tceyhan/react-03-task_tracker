@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import AddTask from "./components/AddTask";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 
@@ -26,7 +27,7 @@ function App() {
     },
   ]);
 
-  const [showAddTask, setShowAddTask] = useState(false);
+  const [showAddTask, setShowAddTask] = useState(true);
 
   // DELETE TASK
   const deleteTask = (deletedTaskId) => {
@@ -54,6 +55,9 @@ function App() {
   // TOGGLESHOW
   const toggleShow = () => setShowAddTask(!showAddTask);
 
+  
+
+
   return (
     <div className="container">
       <Header
@@ -65,10 +69,16 @@ function App() {
       {showAddTask && <AddTask addTask={addTask} />}
 
       {tasks.length > 0 ? (
-        <Tasks tasks={tasks} deleteTask={deleteTask} toggleDone={toggleDone} />
+        <Tasks
+         tasks={tasks}
+         deleteTask={deleteTask}
+         toggleDone={toggleDone}
+         />
       ) : (
         <h2 style={{ textAlign: "center" }}>NO TASK TO SHOW</h2>
       )}
+      <Footer setTasks={setTasks} />
+
     </div>
   );
 }

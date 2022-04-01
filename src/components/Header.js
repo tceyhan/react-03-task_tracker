@@ -1,4 +1,4 @@
-// import PropTypes from "prop-types";
+// import PropTypes from "prop-types";  // projemde string istiyorum demek için kullanılırı örneğin.
 import Button from "./Button";
 
 const Header = ({ title, showAddTask, toggleShow }) => {
@@ -23,11 +23,11 @@ const Header = ({ title, showAddTask, toggleShow }) => {
 };
 
 // Header.propTypes = {
-//   title: PropTypes.string.isRequired,
+//   title: PropTypes.string.isRequired, // title string olmalı
 // };
 
 // Header.defaultProps = {
-//   title: "Task Tracker",
+//   title: "Task Tracker", // default title
 // };
 
 // title = "Task Default"  in props area
