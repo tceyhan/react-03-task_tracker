@@ -33,8 +33,7 @@ const AddTask = ({ addTask }) => {
         <input
           id="day"
           name="day"
-          type="text"
-          placeholder="Add Day & Time"
+          type="date"
           required
           onChange={(e) => setDay(e.target.value)}
           value={day}
